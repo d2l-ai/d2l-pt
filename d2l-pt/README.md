@@ -2,13 +2,13 @@
   <img src="https://raw.githubusercontent.com/d2l-ai/d2l-en/master/static/logo-with-text.png" width="350">
 </div>
 
-# D2L.ai: Interactive Deep Learning Book with Multi-Framework Code, Math, and Discussions
+# D2L.ai: Livro Interativo de Deep Learning com multiplos Frameworks, Conceitos Matemáticos e Discussões
 
 [![Build Status](http://ci.d2l.ai/job/d2l-en/job/master/badge/icon)](http://ci.d2l.ai/job/d2l-en/job/master/)
 
 [Book website](https://d2l.ai/) | [STAT 157 Course at UC Berkeley, Spring 2019](http://courses.d2l.ai/berkeley-stat-157/index.html) | Latest version: v0.16.1
 
-<h5 align="center"><i>The best way to understand deep learning is learning by doing.</i></h5>
+<h5 align="center"><i>A melhor forma de praticar Deep Learning é na prática.</i></h5>
 
 <p align="center">
   <img width="200"  src="static/frontpage/_images/eq.jpg">
@@ -17,22 +17,22 @@
   <img width="200"  src="static/frontpage/_images/notebook.gif">
 </p>
 
-This open-source book represents our attempt to make deep learning approachable, teaching you the concepts, the context, and the code. The entire book is drafted in Jupyter notebooks, seamlessly integrating exposition figures, math, and interactive examples with self-contained code.
+Este livro de código aberto representa nossa tentativa de tornar o Deep Learning acessível, ensinando a você os conceitos, o contextos e códigos. Todo o livro é elaborado em cadernos Jupyter, integrando perfeitamente figuras de exposição, matemática e exemplos interativos com código independente.
 
-Our goal is to offer a resource that could
-1. be freely available for everyone;
-1. offer sufficient technical depth to provide a starting point on the path to actually becoming an applied machine learning scientist;
-1. include runnable code, showing readers how to solve problems in practice;
-1. allow for rapid updates, both by us and also by the community at large;
-1. be complemented by a forum for interactive discussion of technical details and to answer questions.
+Nosso objetivo é oferecer um recurso que possa
+1. estar disponível gratuitamente para todos;
+1. oferecer profundidade técnica suficiente para fornecer um ponto de partida no caminho para realmente se tornar um cientista de aprendizado de máquina aplicado;
+1. inclui código executável, mostrando aos leitores como resolver problemas na prática;
+1. permitir atualizações rápidas, tanto por nós quanto pela comunidade em geral;
+1. ser complementado por um fórum para discussão interativa de detalhes técnicos e para responder a perguntas.
 
-## Universities Using D2L
+## Universidades Usando D2L
 <p align="center">
   <img width="600"  src="static/frontpage/_images/map.png">
 </p>
 
 
-## Cool Papers Using D2L
+## Artigos Interessantes que Usam D2L
 
 1. [**Universal Average-Case Optimality of Polyak Momentum**](https://arxiv.org/pdf/2002.04664.pdf). D. Scieur, F. Pedregosan. *International Conference on Machine Learning, 2020*
 
@@ -59,7 +59,7 @@ Our goal is to offer a resource that could
 </details>
 
 
-If you find this book useful, please star (★) this repository or cite this book using the following bibtex entry:
+Se você achar este livro útil, marque com estrela (★) este repositório ou cite este livro usando a seguinte entrada de bibtex:
 
 ```
 @book{zhang2020dive,
@@ -71,26 +71,26 @@ If you find this book useful, please star (★) this repository or cite this boo
 ```
 
 
-## Endorsements
+## Pessoas que apoiam o projeto D2L
 
-> <p>"In less than a decade, the AI revolution has swept from research labs to broad industries to every corner of our daily life.  Dive into Deep Learning is an excellent text on deep learning and deserves attention from anyone who wants to learn why deep learning has ignited the AI revolution: the most powerful technology force of our time."</p>
-> <b>&mdash; Jensen Huang, Founder and CEO, NVIDIA</b>
+> <p>"Em menos de uma década, a revolução da IA inundou de laboratórios de pesquisa a amplas indústrias e a todos os cantos de nossa vida diária. Dive into Deep Learning é um excelente texto sobre Deep Learning e merece atenção de qualquer pessoa que queira saber por que o aprendizado profundo desencadeou a revolução da IA: a força tecnológica mais poderosa de nosso tempo."</p>
+> <b>&mdash; Jensen Huang, Fundador e CEO, NVIDIA</b>
 
-> <p>"This is a timely, fascinating book, providing with not only a comprehensive overview of deep learning principles but also detailed algorithms with hands-on programming code, and moreover, a state-of-the-art introduction to deep learning in computer vision and natural language processing. Dive into this book if you want to dive into deep learning!"</p>
+> <p>"Este é um livro oportuno e fascinante, que fornece não apenas uma visão geral abrangente dos princípios de Deep Learning, mas também algoritmos detalhados com códigos de programação práticos e, além disso, uma introdução de ponta ao deep learning, em visão computacional e processamento de linguagem natural. Mergulhe neste livro se quiser mergulhar no aprendizado profundo!"</p>
 > <b>&mdash; Jiawei Han, Michael Aiken Chair Professor, University of Illinois at Urbana-Champaign</b>
 
-> <p>"This is a highly welcome addition to the machine learning literature, with a focus on hands-on experience implemented via the integration of Jupyter notebooks. Students of deep learning should find this invaluable to become proficient in this field."</p>
-> <b>&mdash; Bernhard Schölkopf, Director, Max Planck Institute for Intelligent Systems</b>
+> <p>"Esta é uma adição muito bem-vinda à literatura de aprendizado de máquina, com foco na experiência prática implementada por meio da integração de notebooks Jupyter. Os estudantes da área de deep learning devem considerar essencial para se tornarem proficientes neste campo."</p>
+> <b>&mdash; Bernhard Schölkopf, Diretor, Max Planck Institute for Intelligent Systems</b>
 
 
-## Contributing ([Learn How](https://d2l.ai/chapter_appendix-tools-for-deep-learning/contributing.html))
+## Contribuindo ([Learn How](https://d2l.ai/chapter_appendix-tools-for-deep-learning/contributing.html))
 
 This open source book has benefited from pedagogical suggestions, typo corrections, and other improvements from community contributors. Your help is valuable for making the book better for everyone.
 
 **Dear [D2L contributors](https://github.com/d2l-ai/d2l-en/graphs/contributors), please email your GitHub ID and name to d2lbook.en AT gmail DOT com so your name will appear on the [acknowledgments](https://d2l.ai/chapter_preface/index.html#Acknowledgments). Thanks.**
 
 
-## License Summary
+## Sumário de Licensas
 
 This open source book is made available under the Creative Commons Attribution-ShareAlike 4.0 International License. See [LICENSE](LICENSE) file.
 
