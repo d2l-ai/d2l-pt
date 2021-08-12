@@ -90,7 +90,7 @@ Este livro de código aberto se beneficiou de sugestões pedagógicas, correçõ
 **Prezado [D2L contribuidor](https://github.com/d2l-ai/d2l-pt/graphs/contributors), envie um e-mail com sua ID e nome do GitHub para d2lbook.en AT gmail DOT com para que seu nome apareça nos [agradecimentos](https://d2l.ai/d2l-pt/chapter_preface/index.html#Acknowledgments). Obrigado.**
 
 
-## Sumário de Licensas
+## Sumário de Licenças
 
 Este livro de código aberto está disponível sob a Licença Internacional Creative Commons Attribution-ShareAlike 4.0. Ver [LICENSE](LICENSE) file.
 
