@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/d2l-ai/d2l-en/master/static/logo-with-text.png" width="350">
 </div>
 
-# D2L.ai: Livro Interativo de Deep Learning com multiplos Frameworks, Conceitos Matemáticos e Discussões
+# D2L.ai: Livro Interativo de Deep Learning com Multiplos Frameworks, Conceitos Matemáticos e Discussões
 
 [![Build Status](http://ci.d2l.ai/job/d2l-en/job/master/badge/icon)](http://ci.d2l.ai/job/d2l-en/job/master/)
 
@@ -26,13 +26,13 @@ Nosso objetivo é oferecer um recurso que possa
 1. permitir atualizações rápidas, tanto por nós quanto pela comunidade em geral;
 1. ser complementado por um fórum para discussão interativa de detalhes técnicos e para responder a perguntas.
 
-## Universidades Usando D2L
+## Universidades usando D2L
 <p align="center">
   <img width="600"  src="static/frontpage/_images/map.png">
 </p>
 
 
-## Artigos Interessantes que Usam D2L
+## Artigos interessantes que usam D2L
 
 1. [**Universal Average-Case Optimality of Polyak Momentum**](https://arxiv.org/pdf/2002.04664.pdf). D. Scieur, F. Pedregosan. *International Conference on Machine Learning, 2020*
 
@@ -90,7 +90,7 @@ Este livro de código aberto se beneficiou de sugestões pedagógicas, correçõ
 **Prezado [D2L contribuidor](https://github.com/d2l-ai/d2l-pt/graphs/contributors), envie um e-mail com sua ID e nome do GitHub para d2lbook.en AT gmail DOT com para que seu nome apareça nos [agradecimentos](https://d2l.ai/d2l-pt/chapter_preface/index.html#Acknowledgments). Obrigado.**
 
 
-## Sumário de Licenças
+## Sumário de licenças
 
 Este livro de código aberto está disponível sob a Licença Internacional Creative Commons Attribution-ShareAlike 4.0. Ver [LICENSE](LICENSE) file.
 
