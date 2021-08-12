@@ -83,17 +83,17 @@ Se você achar este livro útil, marque com estrela (★) este repositório ou c
 > <b>&mdash; Bernhard Schölkopf, Diretor, Max Planck Institute for Intelligent Systems</b>
 
 
-## Contribuindo ([Learn How](https://d2l.ai/chapter_appendix-tools-for-deep-learning/contributing.html))
+## Contribuindo ([Learn How](https://d2l.ai/d2l-pt/chapter_appendix-tools-for-deep-learning/contributing.html))
 
-This open source book has benefited from pedagogical suggestions, typo corrections, and other improvements from community contributors. Your help is valuable for making the book better for everyone.
+Este livro de código aberto se beneficiou de sugestões pedagógicas, correções de digitação e outras melhorias de colaboradores da comunidade. Sua ajuda é valiosa para tornar o livro melhor para todos.
 
-**Dear [D2L contributors](https://github.com/d2l-ai/d2l-en/graphs/contributors), please email your GitHub ID and name to d2lbook.en AT gmail DOT com so your name will appear on the [acknowledgments](https://d2l.ai/chapter_preface/index.html#Acknowledgments). Thanks.**
+**Prezado [D2L contribuidor](https://github.com/d2l-ai/d2l-pt/graphs/contributors), envie um e-mail com sua ID e nome do GitHub para d2lbook.en AT gmail DOT com para que seu nome apareça nos [agradecimentos](https://d2l.ai/d2l-pt/chapter_preface/index.html#Acknowledgments). Obrigado.**
 
 
 ## Sumário de Licensas
 
-This open source book is made available under the Creative Commons Attribution-ShareAlike 4.0 International License. See [LICENSE](LICENSE) file.
+Este livro de código aberto está disponível sob a Licença Internacional Creative Commons Attribution-ShareAlike 4.0. Ver [LICENSE](LICENSE) file.
 
-The sample and reference code within this open source book is made available under a modified MIT license. See the [LICENSE-SAMPLECODE](LICENSE-SAMPLECODE) file.
+Os dados e o código de referência deste livro de código aberto estão disponíveis sob uma licença MIT modificada. Veja no arquivo [LICENSE-SAMPLECODE](LICENSE-SAMPLECODE).
 
-[Chinese version](https://github.com/d2l-ai/d2l-zh) | [Discuss and report issues](https://discuss.d2l.ai/) | [Code of conduct](CODE_OF_CONDUCT.md) | [Other Information](INFO.md)
+[Versão inglês original](https://github.com/d2l-ai) | [Discussões e reporte de problemas](https://discuss.d2l.ai/) | [Código de conduta](CODE_OF_CONDUCT.md) | [Outras informações](INFO.md)
