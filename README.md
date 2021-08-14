@@ -65,7 +65,8 @@ Se você achar este livro útil, marque com estrela (★) este repositório ou c
 @book{zhang2020dive,
     title={Dive into Deep Learning},
     author={Aston Zhang and Zachary C. Lipton and Mu Li and Alexander J. Smola},
-    note={\url{https://d2l.ai}, translated by Dalcimar Casanova and Lucas Volkmer Hendges and Fabio Henrique Kurpel},
+    note={translated by Dalcimar Casanova and Lucas Volkmer Hendges and Fabio Henrique Kurpel},
+    url={https://d2l.ai}, 
     year={2020}
 }
 ```
