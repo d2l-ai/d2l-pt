@@ -17,8 +17,7 @@ a *lógica de negócios* (você pode dizer, os *cérebros*) de nosso aplicativo
 descreve em detalhes metódicos a ação apropriada
 que nosso programa deve levar em todas as circunstâncias concebíveis.
 
-Para construir o cérebro de nosso aplicativo,
-teríamos que percorrer todos os casos esquivos possíveis
+Para construir o cérebro de nosso aplicativo, teríamos que percorrer todos os casos esquivos possíveis
 que antecipamos encontrar, criando regras apropriadas.
 Cada vez que um cliente clica para adicionar um item ao carrinho de compras,
 adicionamos uma entrada à tabela de banco de dados do carrinho de compras,
@@ -26,21 +25,17 @@ associando o ID desse usuário ao ID do produto solicitado.
 Embora poucos desenvolvedores acertem completamente na primeira vez
 (podem ser necessários alguns testes para resolver os problemas),
 na maior parte, poderíamos escrever esse programa a partir dos primeiros princípios
-e lançá-lo com confiança
-*antes* de ver um cliente real.
+e lançá-lo com confiança *antes* de ver um cliente real.
 Nossa capacidade de projetar sistemas automatizados a partir dos primeiros princípios
-que impulsionam o funcionamento de produtos e sistemas,
-frequentemente em novas situações,
-é um feito cognitivo notável.
+que impulsionam o funcionamento de produtos, sistemas e,
+frequentemente em novas situações, é um feito cognitivo notável.
 E quando você é capaz de conceber soluções que funcionam $100\%$ do tempo,
 você não deveria usar o *machine learning*.
 
 
 Felizmente para a crescente comunidade de cientistas de *machine learning*,
-muitas tarefas que gostaríamos de automatizar
-não se curvam tão facilmente à habilidade humana.
-Imagine se amontoar em volta do quadro branco com as mentes mais inteligentes que você conhece,
-mas desta vez você está lidando com um dos seguintes problemas:
+muitas tarefas que gostaríamos de automatizar não se curvam tão facilmente à habilidade humana.
+Imagine se amontoar em volta do quadro branco com as mentes mais inteligentes que você conhece, mas desta vez você está lidando com um dos seguintes problemas:
 
 * Escreva um programa que preveja o clima de amanhã com base em informações geográficas, imagens de satélite e uma janela de rastreamento do tempo passado.
 * Escreva um programa que aceite uma pergunta, expressa em texto de forma livre, e a responda corretamente.
