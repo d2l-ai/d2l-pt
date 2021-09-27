@@ -20,9 +20,9 @@ As RNNs introduzem variáveis de estado para armazenar informações anteriores,
 
 [^1]:*recurrent neural networks*
 
-Muitos dos exemplos de uso de redes recorrentes são baseados em dados de texto. Portanto, enfatizaremos os modelos de linguagem neste capítulo. Após uma revisão mais formal dos dados de sequência, apresentamos técnicas práticas para o pré-processamento de dados de texto.
+Muitos dos exemplos de uso de redes recorrentes são baseados em dados de texto. Portanto, enfatizaremos os modelos de linguagem neste capítulo. Após uma revisão mais formal dos dados sequenciais, apresentamos técnicas práticas para o pré-processamento desses.
 A seguir, discutimos os conceitos básicos de um modelo de linguagem e usamos essa discussão como inspiração para o design de RNNs.
-No final, descrevemos o método de cálculo de gradiente para RNNs para explorar problemas que podem ser encontrados durante o treinamento de tais redes.
+No final descrevemos o método de cálculo do gradiente para RNNs, uma vez que problemas podem ser encontrados durante o treinamento de tais redes.
 
 ```toc
 :maxdepth: 2
