@@ -50,7 +50,7 @@ d2l.plt.imshow(img);
 ## Caixa Delimitadora
 
 Na detecção de objetos, geralmente usamos uma caixa delimitadora para descrever o local de destino.
-A caixa delimitadora é uma caixa retangular que pode ser determinada pelas coordenadas dos eixos $x$ e $y$ no canto superior esquerdo e pelas coordenadas dos eixos $x$ e $y$ no canto inferior direito do retângulo.
+A caixa delimitadora é uma caixa retangular que pode ser determinada pelas coordenadas dos eixos $x$ e $y$ no canto superior esquerdo e pelas coordenadas dos eixos $x$ e $y$ no canto inferior direito.
 Outra representação de caixa delimitadora comumente usada são as coordenadas dos eixos $x$ e $y$ do centro da caixa delimitadora e sua largura e altura.
 Aqui definimos funções para converter entre esses dois
 representações, `box_corner_to_center` converte da representação de dois cantos para a apresentação centro-largura-altura,
