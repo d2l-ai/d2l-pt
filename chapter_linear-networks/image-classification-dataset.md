@@ -2,7 +2,7 @@
 :label:`sec_fashion_mnist`
 
 
-(~~ O dataset MNIST é um dos conjuntos de dados amplamente usados para classificação de imagens, embora seja muito simples como um conjunto de dados de referência. Usaremos o dataset Fashion-MNIST semelhante, mas mais complexo ~~)
+(~~ O dataset MNIST, embora seja muito simples, é um dataset de referência e amplamente usado para classificação de imagens. Para os exemplos na sequencia usaremos o dataset Fashion-MNIST que é semelhante, mas um pouco mais complexo ~~)
 
 Um dos *datasets* amplamente usados para classificação de imagens é o conjunto de dados MNIST :cite:`LeCun.Bottou.Bengio.ea.1998`.
 Embora tenha tido uma boa execução como um conjunto de dados de referência,
