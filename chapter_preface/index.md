@@ -12,8 +12,7 @@ Apenas nos últimos cinco anos, o *deep learning* pegou o mundo de surpresa,
 impulsionando o rápido progresso em campos tão diversos como a visão computacional,
 processamento de linguagem natural, reconhecimento automático de fala,
 aprendizagem por reforço e modelagem estatística.
-Com esses avanços em mãos, agora podemos construir carros que se dirigem sozinhos
-com mais autonomia do que nunca (e menos autonomia
+Com esses avanços em mãos, agora podemos construir carros que se dirigem sozinhos com mais autonomia do que nunca (e menos autonomia
 do que algumas empresas podem fazer você acreditar),
 sistemas de resposta inteligente que redigem automaticamente os e-mails mais comuns,
 ajudando as pessoas a se livrarem de caixas de entrada opressivamente grandes,
