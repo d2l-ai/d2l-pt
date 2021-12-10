@@ -65,7 +65,7 @@ e o *label* correspondente como $y^{(i)}$.
 A suposição de linearidade apenas diz que o alvo (preço)
 pode ser expresso como uma soma ponderada das características (área e idade):
 
-$$\mathrm{preço} = w_{\mathrm{área}}\cdot\mathrm{área} + w_ \mathrm{idade}}\cdot\mathrm{idade} + b.$$:eqlabel:`eq_price-area`
+$$\mathrm{preço} = w_{\mathrm{área}}\cdot\mathrm{área} + w_{\mathrm{idade}}\cdot\mathrm{idade} + b.$$:eqlabel:`eq_price-area`
 
 In :eqref:`eq_price-area`, $ w_{\mathrm{area}}$ e $w_{\mathrm{age}}$
 são chamados de *pesos* e $b$ é chamado de *bias*
