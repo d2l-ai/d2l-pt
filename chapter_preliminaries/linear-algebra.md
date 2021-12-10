@@ -259,7 +259,7 @@ como $a_ {2, 3j}$ e $[\mathbf {A}] _ {2i-1, 3}$.
 Às vezes, queremos inverter os eixos.
 Quando trocamos as linhas e colunas de uma matriz,
 o resultado é chamado de *transposição* da matriz.
-Formalmente, significamos uma matriz $\mathbf {A}$ transposta por $\mathbf {A} ^ \ top$
+Formalmente, significamos uma matriz $\mathbf {A}$ transposta por $\mathbf {A} ^ \top$
 e se $\mathbf {B} = \mathbf {A} ^ \top$, então $b_ {ij} = a_ {ji}$ para qualquer $i$ e $j$.
 Assim, a transposição de $\mathbf {A}$ em: eqref: `eq_matrix_def` é
 uma matriz $n \times m$:
@@ -288,6 +288,7 @@ A.T
 #@tab tensorflow
 tf.transpose(A)
 ```
+
 Como um tipo especial de matriz quadrada,
 [**a *matriz simétrica* $\mathbf {A}$ é igual à sua transposta:
 $\mathbf{A} = \mathbf{A}^\top$.**]
@@ -311,7 +312,6 @@ B
 ```
 
 Agora comparamos `B` com sua transposta.
-
 
 ```{.python .input}
 B == B.T
@@ -687,6 +687,7 @@ x, y, torch.dot(x, y)
 y = tf.ones(4, dtype=tf.float32)
 x, y, tf.tensordot(x, y, axes=1)
 ```
+
 Observe que
 (**podemos expressar o produto escalar de dois vetores de forma equivalente, realizando uma multiplicação elemento a elemento e, em seguida, uma soma:**)
 
@@ -776,6 +777,7 @@ Quando chamamos `np.dot (A, x)` com uma matriz `A` e um vetor` x`,
 o produto matriz-vetor é realizado.
 Observe que a dimensão da coluna de `A` (seu comprimento ao longo do eixo 1)
 deve ser igual à dimensão de `x` (seu comprimento).
+
 ```{.python .input}
 A.shape, x.shape, np.dot(A, x)
 ```
@@ -928,6 +930,7 @@ $\mathbf{x}$ são $x_1, \ldots, x_n$.
 
 onde o subscrito $2$ é frequentemente omitido nas normas $L_2$, ou seja, $\|\mathbf{x}\|$ é equivalente a $\|\mathbf{x}\|_2$. Em código,
 podemos calcular a norma $L_2$ de um vetor da seguinte maneira.
+
 ```{.python .input}
 u = np.array([3, -4])
 np.linalg.norm(u)
@@ -944,6 +947,7 @@ torch.norm(u)
 u = tf.constant([3.0, -4.0])
 tf.norm(u)
 ```
+
 Em *Deep Learning*, trabalhamos com mais frequência
 com a norma $L_2$ ao quadrado.
 
@@ -971,7 +975,6 @@ torch.abs(u).sum()
 #@tab tensorflow
 tf.reduce_sum(tf.abs(u))
 ```
-
 
 Tanto a norma $L_2$ quanto a norma $L_1$
 são casos especiais da norma mais geral $L_p$:
