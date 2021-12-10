@@ -46,6 +46,7 @@ stage("Build and Publish") {
       conda activate ${ENV_NAME}
       ./static/cache.sh restore _build/eval_tensorflow/data
       export TF_CPP_MIN_LOG_LEVEL=3
+      export TF_FORCE_GPU_ALLOW_GROWTH=true
       d2lbook build eval --tab tensorflow
       ./static/cache.sh store _build/eval_tensorflow/data
       """
@@ -60,6 +61,11 @@ stage("Build and Publish") {
       d2lbook build pdf
       """
 
+      sh label:"Build Pytorch PDF", script:"""set -ex
+      conda activate ${ENV_NAME}
+      d2lbook build pdf --tab pytorch
+      """
+      
       if (env.BRANCH_NAME == 'release') {
         sh label:"Release", script:"""set -ex
         conda activate ${ENV_NAME}
