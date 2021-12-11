@@ -124,7 +124,7 @@ um *perceptron multicamadas*,
 frequentemente abreviado como *MLP*.
 Abaixo, representamos um MLP em diagrama (:numref:`fig_mlp`).
 
-![Um MLP com uma camada oculta de 5 unidades ocultas. ](../ img / mlp.svg) :label:`fig_mlp`
+![Um MLP com uma camada oculta de 5 unidades ocultas. ](../img/mlp.svg) :label:`fig_mlp`
 
 Este MLP tem 4 entradas, 3 saídas,
 e sua camada oculta contém 5 unidades ocultas.
@@ -378,7 +378,6 @@ with tf.GradientTape() as t:
 d2l.plot(x.numpy(), t.gradient(y, x).numpy(), 'x', 'grad of relu',
          figsize=(5, 2.5))
 ```
-
 
 A razão para usar ReLU é que
 suas derivadas são particularmente bem comportadas:
