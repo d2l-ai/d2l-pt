@@ -83,7 +83,7 @@ Se você achar este livro útil, marque com estrela (★) este repositório ou c
 > <b>&mdash; Bernhard Schölkopf, Diretor, Max Planck Institute for Intelligent Systems</b>
 
 
-## Contribuindo ([Learn How](https://d2l.ai/d2l-pt/chapter_appendix-tools-for-deep-learning/contributing.html))
+## Contribuindo ([Learn How](https://pt.d2l.ai/chapter_appendix-tools-for-deep-learning/contributing.html))
 
 Este livro de código aberto se beneficiou de sugestões pedagógicas, correções de digitação e outras melhorias de colaboradores da comunidade. Sua ajuda é valiosa para tornar o livro melhor para todos.
 
