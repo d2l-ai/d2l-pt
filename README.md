@@ -4,7 +4,7 @@
 
 # D2L.ai: Livro Interativo de Deep Learning com Multiplos Frameworks, Conceitos Matemáticos e Discussões
 
-[![Build Status](http://ci.d2l.ai/job/d2l-en/job/master/badge/icon)](http://ci.d2l.ai/job/d2l-en/job/master/)
+[![Build Status](http://ci.d2l.ai/job/d2l-pt/job/master/badge/icon)](http://ci.d2l.ai/job/d2l-pt/job/master/)
 
 [Book website](https://d2l.ai/) | [STAT 157 Course at UC Berkeley, Spring 2019](http://courses.d2l.ai/berkeley-stat-157/index.html) | Latest version: v0.16.1
 
@@ -62,12 +62,11 @@ Nosso objetivo é oferecer um recurso que possa
 Se você achar este livro útil, marque com estrela (★) este repositório ou cite este livro usando a seguinte entrada de bibtex:
 
 ```
-@book{zhang2020dive,
+@article{zhang2021dive,
     title={Dive into Deep Learning},
-    author={Aston Zhang and Zachary C. Lipton and Mu Li and Alexander J. Smola},
-    note={translated by Dalcimar Casanova and Lucas Volkmer Hendges and Fabio Henrique Kurpel},
-    url={https://d2l.ai}, 
-    year={2020}
+    author={Zhang, Aston and Lipton, Zachary C. and Li, Mu and Smola, Alexander J.},
+    journal={arXiv preprint arXiv:2106.11342},
+    year={2021}
 }
 ```
 
@@ -84,7 +83,7 @@ Se você achar este livro útil, marque com estrela (★) este repositório ou c
 > <b>&mdash; Bernhard Schölkopf, Diretor, Max Planck Institute for Intelligent Systems</b>
 
 
-## Contribuindo ([Learn How](https://d2l.ai/d2l-pt/chapter_appendix-tools-for-deep-learning/contributing.html))
+## Contribuindo ([Learn How](https://pt.d2l.ai/chapter_appendix-tools-for-deep-learning/contributing.html))
 
 Este livro de código aberto se beneficiou de sugestões pedagógicas, correções de digitação e outras melhorias de colaboradores da comunidade. Sua ajuda é valiosa para tornar o livro melhor para todos.
 

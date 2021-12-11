@@ -374,7 +374,6 @@ _, styles_Y = get_styles(image_shape, device)
 output = train(content_X, contents_Y, styles_Y, device, 0.01, 500, 200)
 ```
 
-
 Como você pode ver, a imagem composta retém o cenário e os objetos da imagem de conteúdo, enquanto introduz a cor da imagem de estilo. Como a imagem é relativamente pequena, os detalhes são um pouco confusos.
 
 Para obter uma imagem composta mais clara, treinamos o modelo usando um tamanho de imagem maior: $900 \times 600$. Aumentamos a altura e a largura da imagem usada antes por um fator de quatro e inicializamos uma imagem composta maior.
