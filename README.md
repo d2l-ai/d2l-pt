@@ -4,7 +4,7 @@
 
 # D2L.ai: Livro Interativo de Deep Learning com Multiplos Frameworks, Conceitos Matemáticos e Discussões
 
-[![Build Status](http://ci.d2l.ai/job/d2l-en/job/master/badge/icon)](http://ci.d2l.ai/job/d2l-en/job/master/)
+[![Build Status](http://ci.d2l.ai/job/d2l-pt/job/master/badge/icon)](http://ci.d2l.ai/job/d2l-pt/job/master/)
 
 [Book website](https://d2l.ai/) | [STAT 157 Course at UC Berkeley, Spring 2019](http://courses.d2l.ai/berkeley-stat-157/index.html) | Latest version: v0.16.1
 
