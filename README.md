@@ -97,3 +97,4 @@ Este livro de código aberto está disponível sob a Licença Internacional Crea
 Os dados e o código de referência deste livro de código aberto estão disponíveis sob uma licença MIT modificada. Veja no arquivo [LICENSE-SAMPLECODE](LICENSE-SAMPLECODE).
 
 [Versão inglês original](https://github.com/d2l-ai/d2l-en) | [Discussões e reporte de problemas](https://discuss.d2l.ai/) | [Código de conduta](CODE_OF_CONDUCT.md) | [Outras informações](INFO.md)
+
