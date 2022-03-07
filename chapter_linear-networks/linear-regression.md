@@ -343,7 +343,7 @@ em vez de escrever *loops for* custosos em Python.**)
 %matplotlib inline
 from d2l import mxnet as d2l
 import math
-from mxnet import np
+import numpy as np
 import time
 ```
 
