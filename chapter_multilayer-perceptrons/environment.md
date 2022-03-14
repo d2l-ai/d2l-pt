@@ -451,7 +451,7 @@ para corrigir a mudança da covariável:
 
 1. Gere um conjunto de treinamento de classificação binária: $\{(\mathbf{x}_1, -1), \ldots, (\mathbf{x}_n, -1), (\mathbf{u}_1, 1), \ldots, (\mathbf{u}_m, 1)\}$.
 1. Treine um classificador binário usando regressão logística para obter a função $h$.
-1. Pese os dados de treinamento usando $\beta_i = \exp(h(\mathbf{x}_i))$ ou melhor $$\beta_i = \min(\exp(h(\mathbf{x}_i)), c)$ para alguma constante $c$.
+1. Pese os dados de treinamento usando $\beta_i = \exp(h(\mathbf{x}_i))$ ou melhor $\beta_i = \min(\exp(h(\mathbf{x}_i)), c)$ para alguma constante $c$.
 1. Use pesos $\beta_i$ para treinar em $\{(\mathbf{x}_1, y_1), \ldots, (\mathbf{x}_n, y_n)\}$ em :eqref:`eq_weighted-empirical-risk-min`.
 
 Observe que o algoritmo acima se baseia em uma suposição crucial.

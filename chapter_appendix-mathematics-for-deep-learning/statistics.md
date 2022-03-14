@@ -19,7 +19,7 @@ Nesta seção, apresentaremos três tipos de métodos de inferência estatístic
 
 ## Avaliando e comparando estimadores
 
-Em estatística, um *estimador* é uma função de determinadas amostras usadas para estimar o parâmetro verdadeiro $\theta$. Vamos escrever $\hat{\theta}_n = \hat{f}(x_1, \ldots, x_n)$ para a estimativa de $$\theta$ após observar as amostras {$x_1, x_2, \ldots, x_n$}.
+Em estatística, um *estimador* é uma função de determinadas amostras usadas para estimar o parâmetro verdadeiro $\theta$. Vamos escrever $\hat{\theta}_n = \hat{f}(x_1, \ldots, x_n)$ para a estimativa de $\theta$ após observar as amostras {$x_1, x_2, \ldots, x_n$}.
 
 
 Já vimos exemplos simples de estimadores na seção :numref:`sec_maximum_likelihood`. Se você tiver várias amostras de uma variável aleatória de Bernoulli, então a estimativa de máxima verossimilhança para a probabilidade da variável aleatória ser um pode ser obtida contando o número de unidades observadas e dividindo pelo número total de amostras. Da mesma forma, um exercício pediu que você mostrasse que a estimativa de máxima verossimilhança da média de uma gaussiana dado um número de amostras é dada pelo valor médio de todas as amostras. Esses estimadores quase nunca fornecerão o valor verdadeiro do parâmetro, mas idealmente para um grande número de amostras a estimativa será próxima.
@@ -206,7 +206,7 @@ def mse(data, true_theta):
     return(tf.reduce_mean(tf.square(data - true_theta)))
 ```
 
-Para ilustrar a equação do trade-off *bias*-variância, vamos simular a distribuição normal $\mathcal{N}(\theta, \sigma^2)$ com $10.000$ amostras. Aqui, usamos a $$\theta = 1$ e $\sigma = 4$. Como o estimador é uma função das amostras fornecidas, aqui usamos a média das amostras como um estimador para $\theta$ verdadeiros nesta distribuição normal $\mathcal{N}(\theta, \sigma^2)$ .
+Para ilustrar a equação do trade-off *bias*-variância, vamos simular a distribuição normal $\mathcal{N}(\theta, \sigma^2)$ com $10.000$ amostras. Aqui, usamos a $\theta = 1$ e $\sigma = 4$. Como o estimador é uma função das amostras fornecidas, aqui usamos a média das amostras como um estimador para $\theta$ verdadeiros nesta distribuição normal $\mathcal{N}(\theta, \sigma^2)$ .
 
 ```{.python .input}
 theta_true = 1

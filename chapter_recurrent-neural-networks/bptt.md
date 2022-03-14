@@ -127,7 +127,7 @@ Então, para $t\geq 1$, é fácil mostrar
 $$a_{t}=b_{t}+\sum_{i=1}^{t-1}\left(\prod_{j=i+1}^{t}c_{j}\right)b_{i}.$$
 :eqlabel:`eq_bptt_at`
 
-Substituindo $$a_t$, $b_t$, e $c_t$
+Substituindo $a_t$, $b_t$, e $c_t$
 de acordo com
 
 $$\begin{aligned}a_t &= \frac{\partial h_t}{\partial w_h},\\
@@ -229,7 +229,7 @@ cuja função de ativação na camada oculta
 usa o mapeamento de identidade ($\phi(x)=x$).
 Para a etapa de tempo $t$,
 deixe a entrada de exemplo único e o rótulo ser
-$$\mathbf{x}_t \in \mathbb{R}^d$ and $y_t$, respectivamente.
+$\mathbf{x}_t \in \mathbb{R}^d$ and $y_t$, respectivamente.
 O estado oculto $\mathbf{h}_t \in \mathbb{R}^h$ 
 e a saída $\mathbf{o}_t \in \mathbb{R}^q$
 são computados como

@@ -213,7 +213,7 @@ $$
 
 Aqui $r^2 := \|\mathbf{w}_0 - \mathbf{w}^*\|^2$ é um limite na distância entre a escolha inicial dos parâmetros e o resultado final. Em suma, a velocidade de convergência depende de quão rapidamente a função de perda muda por meio da constante de Lipschitz $L$ e quão longe da otimização o valor inicial está $r$. Observe que o limite é em termos de $\bar{\mathbf{w}}$ em vez de $\mathbf{w}_T$. Este é o caso, pois $\bar{\mathbf{w}}$ é uma versão suavizada do caminho de otimização. Agora vamos analisar algumas opções para $\eta_t$.
 
-* **Horizonte de tempo conhecido**. Sempre que $r, L$ e $T$ são conhecidos, podemos escolher $$\eta = r/L \sqrt{T}$. Isso resulta no limite superior $r L (1 + 1/T)/2\sqrt{T} < rL/\sqrt{T}$. Ou seja, convergimos com a taxa $\mathcal{O}(1/\sqrt{T})$ para a solução ótima.
+* **Horizonte de tempo conhecido**. Sempre que $r, L$ e $T$ são conhecidos, podemos escolher $\eta = r/L \sqrt{T}$. Isso resulta no limite superior $r L (1 + 1/T)/2\sqrt{T} < rL/\sqrt{T}$. Ou seja, convergimos com a taxa $\mathcal{O}(1/\sqrt{T})$ para a solução ótima.
 * **Horizonte de tempo desconhecido**. Sempre que quisermos ter uma boa solução para *a qualquer* momento $T$, podemos escolher $\eta = \mathcal{O}(1/\sqrt{T})$. Isso nos custa um fator logarítmico extra e leva a um limite superior da forma $\mathcal{O}(\log T / \sqrt{T})$.
 
 Observe que para perdas fortemente convexas $l(\mathbf{x}, \mathbf{w}') \geq l(\mathbf{x}, \mathbf{w}) + \langle \mathbf{w}'-\mathbf{w}, \partial_\mathbf{w} l(\mathbf{x}, \mathbf{w}) \rangle + \frac{\lambda}{2} \|\mathbf{w}-\mathbf{w}'\|^2$  podemos projetar agendas de otimização convergentes ainda mais rapidamente. Na verdade, um declínio exponencial em $\eta$ leva a um limite da forma $\mathcal{O}(\log T / T)$.

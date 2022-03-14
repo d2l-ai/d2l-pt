@@ -35,7 +35,7 @@ Em 1948, Claude E. Shannon publicou *A Mathematical Theory of Communication* :ci
 
 Visto que a informação incorpora a possibilidade abstrata de um evento, como mapeamos a possibilidade para o número de bits? Shannon introduziu a terminologia *bit* como a unidade de informação, que foi originalmente criada por John Tukey. Então, o que é um "bit" e por que o usamos para medir as informações? Historicamente, um transmissor antigo só pode enviar ou receber dois tipos de código: $0$ e $1$. Na verdade, a codificação binária ainda é de uso comum em todos os computadores digitais modernos. Desta forma, qualquer informação é codificada por uma série de $0$ e $1$. E, portanto, uma série de dígitos binários de comprimento $n$ contém $n$ bits de informação.
 
-Agora, suponha que para qualquer série de códigos, cada $0$ ou $1$ ocorra com uma probabilidade de $\frac{1}{2}$. Portanto, um evento $X$ com uma série de códigos de comprimento $n$, ocorre com uma probabilidade de $$\frac{1}{2^n}$. Ao mesmo tempo, como mencionamos antes, essa série contém $n$ bits de informação. Então, podemos generalizar para uma função matemática que pode transferir a probabilidade $p$ para o número de bits? Shannon deu a resposta definindo *autoinformação*
+Agora, suponha que para qualquer série de códigos, cada $0$ ou $1$ ocorra com uma probabilidade de $\frac{1}{2}$. Portanto, um evento $X$ com uma série de códigos de comprimento $n$, ocorre com uma probabilidade de $\frac{1}{2^n}$. Ao mesmo tempo, como mencionamos antes, essa série contém $n$ bits de informação. Então, podemos generalizar para uma função matemática que pode transferir a probabilidade $p$ para o número de bits? Shannon deu a resposta definindo *autoinformação*
 
 $$I(X) = - \log_2 (p),$$
 
