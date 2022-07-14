@@ -1,0 +1,25 @@
+version: 2
+
+sources:
+  - name: src_tpch_sf1
+    database: snowflake_sample_data
+    schema: tpch_sf1
+    description: Our sample source for demonstration.
+    tables:
+
+      - name: customer
+        description: Customer table with personal details.
+        columns: 
+        - name: c_custkey
+          description: FK
+          tests:
+            - not_null
+            - unique
+
+      - name: nation
+        description: Nations table holding repetitive data.
+        columns: 
+        - name: n_nationkey
+          tests:
+            - not_null
+            - unique

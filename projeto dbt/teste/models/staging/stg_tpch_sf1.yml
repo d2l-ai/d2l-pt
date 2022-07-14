@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: stg_tpch_sf1__customer
+    description: Customer staging view.
+
+  - name: stg_tpch_sf1__nation
+    description: Nation staging view.

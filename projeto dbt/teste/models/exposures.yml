@@ -1,0 +1,22 @@
+version: 2
+
+exposures:
+  - name: Customer Dashboard
+    type: dashboard
+    url: https://linktodashboard.com
+    description: A testing dashboard.
+    depends_on:
+      - ref('dim_customer')
+    owner:
+      name: Lucas Brandi
+      email: lucas.brandi@triggo.ai
+
+  - name: Example app
+    type: application
+    url: https://linktoapp.com
+    description: A testing app.
+    depends_on:
+      - ref('my_second_dbt_model')
+    owner:
+      name: Lucas Brandi
+      email: lucas.brandi@triggo.ai
